@@ -5,7 +5,7 @@ from .models import Post
 
 def home_page(request):
     posts = Post.objects.all().order_by("-date")[:3]
-    return render(request, 'blog/home-page.html', {"posts": posts})
+    return render(request, 'blog/index.html', {"posts": posts})
 
 
 def posts(request):
