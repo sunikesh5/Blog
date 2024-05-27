@@ -1,4 +1,0 @@
-{
-    "step 1: start the project": "django-admin.exe startproject blog_site"
-    "step 2: create blog app": "python.exe manage.py startapp blog"
-}
